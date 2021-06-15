@@ -247,7 +247,7 @@ export default function ResponsiveDrawer(props: any) {
     <div>
       <div className={classes.toolbar} />
       <ul className={classes.remove}>
-                <li  className={location.pathname === "/home" ?classes.activeColor: classes.iconsColor} >
+                <li  className={location.pathname === "/" ?classes.activeColor: classes.iconsColor} >
                   
                     <a href="/home" >
                     <HomeIcon className={classes.iconsColor} />

@@ -18,7 +18,7 @@ function App() {
      <Router>
      <Sidebar/>
      <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="https://sreelathademo.github.io/Pratice/" component={Home} />
       </Switch>
       </Router>
     
