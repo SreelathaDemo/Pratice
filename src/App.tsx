@@ -17,6 +17,7 @@ function App() {
      
      <Router>
      <Sidebar/>
+     <Home />
      <Switch>
           <Route exact path="https://sreelathademo.github.io/Pratice/" component={Home} />
       </Switch>
